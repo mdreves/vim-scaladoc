@@ -1,16 +1,16 @@
 # Overview
 
 The vim-scaladoc plug-in is for use with [Vim](http://www.vim.org/) - who
-would have thought?. It allows you to open scaladoc documentation in your
+would have thought? It allows you to open scaladoc documentation in your
 favorite browser based on keyword selection. By default the plugin will
 search the following locations for documentation:
 
- * [Official Scala Site](http://www.scala-lang.org/api/current)
+ * [Official Scala Documentation](http://www.scala-lang.org/api/current)
  * Local Project (target/scala-x.x.x/api)
  * User Specified Paths
 
 The local project search is based on the current open file in VIM. If the file
-contains a 'src' directory in its path, then `target/scala-x.x.x/api` is
+contains a `src` directory in its path, then `target/scala-x.x.x/api` is
 appended to the parent of this directory and added to the search path.
 
 # Requirements
@@ -32,7 +32,7 @@ Once help tags have been generated, you can view the manual with
 
 # Documentation
 
-Documentation is available via VIM :help, but it's fairly simple:
+Documentation is available via VIM `:help`, but it's fairly simple:
 
     :ScalaDoc list
 
