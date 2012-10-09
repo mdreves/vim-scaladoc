@@ -1,0 +1,37 @@
+# Temporary files
+syntax: glob
+*.class
+*.swp
+*~
+*.bak
+*.old
+.DS_Store
+tags
+
+# Build files
+target/
+lib_managed/
+src_managed/
+project/project/
+
+# Log files
+#*.log
+
+# Db files
+#
+
+# Other scm files
+.svn
+.CVS
+
+# Eclipse files
+.settings
+.classpath
+.project
+.manager
+
+# IntelliJ files
+*.iml
+*.ipr
+*.iws
+.idea
