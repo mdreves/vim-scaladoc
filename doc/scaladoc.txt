@@ -16,7 +16,7 @@ appended to the parent of this directory and added to the search path.
 
 COMMANDS                                                   *scaladoc-commands*
 
-There is only one command '|:ScalaDoc|'. This command should be followed by
+There is only one command |:ScalaDoc|. This command should be followed by
 one or more keywords. For example:
 
     :ScalaDoc list
@@ -37,7 +37,7 @@ window will be opened to select a URL from.
 Note: The first time |`:ScalaDoc| is run it may be a bit slow as it downloads
 and indexes the docs, but subsequent runs should be fast.
 
-MAPPINGS                                                    *scaladoc-mappigs*
+MAPPINGS                                                   *scaladoc-mappings*
 
 There are no built-in mappings added for scaladoc, but it is simple enough
 to add your own. For example:
