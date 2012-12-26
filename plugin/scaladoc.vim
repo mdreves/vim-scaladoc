@@ -1,3 +1,4 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Copyright 2012 Mike Dreves
 "
 " All rights reserved. This program and the accompanying materials
@@ -14,8 +15,7 @@
 " either express or implied.
 "
 " @author Mike Dreves
-
-let s:scaladoc_version = "0.1"
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Check if loaded
 if exists("g:loaded_scaladoc") || &cp
@@ -27,7 +27,7 @@ if exists("g:scaladoc") && g:scaladoc == 0
  finish
 endif
 
-let g:loaded_scaladoc = s:scaladoc_version
+let g:loaded_scaladoc = 1
 
 " Check python support
 if !has('python')
