@@ -175,7 +175,7 @@ function! scaladoc#util#EchoError(msg) abort " {{{
   echohl ErrorMsg
   echomsg a:msg
   echohl None
-  let v:errormsg = a:msg
+  let v:warningmsg = a:msg
 endfunction " }}}
 
 
