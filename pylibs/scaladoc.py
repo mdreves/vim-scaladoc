@@ -158,6 +158,9 @@ def _FindLocalDocs(path):
   Returns:
     Full path to api docs if found (latest docs if multiple found) or None
   """
+  if not path:
+    return None
+
   while True:
     (path, tail) = os.path.split(path)
     if not tail:
